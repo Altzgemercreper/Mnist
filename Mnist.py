@@ -5,7 +5,7 @@ import torch
 
 def train():
     ob_type=np.dtype(np.int32).newbyteorder('>') 
-    way='D:\HYPERPC\Desktop\Games\c\Python\Mnist' #Путь до нужных данных
+    way='\Python\Mnist' #Путь до нужных данных
     tr_way=way+'train-images-idx3-ubyte.gz'
     tr_i=gzip.open(tr_way,'r')
      
